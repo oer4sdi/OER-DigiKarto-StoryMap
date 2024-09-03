@@ -1,6 +1,7 @@
-﻿Erstellen einer „Story Map“ in der ArcGIS Online Welt 
+# ﻿Erstellen einer „Story Map“ in der ArcGIS Online Welt 
 
 In diesem Lernmaterial geht es darum zu lernen, wie man eine "Story Map", ein Feature in ArcGIS Online, erstellt. Wir werden ein reales Beispiel verwenden, um unsere eigene Website zu erstellen. 
+Die Aufgabe ist es eine Story Map zu erstellen, die den Unfallatlas von 2023 in NRW vorstellt. Der Fokus soll dabei auf Fahrradunfällen liegen. 
 
 Sie werden lernen: 
 
