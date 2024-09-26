@@ -32,6 +32,7 @@ Sie werden lernen:
 ## Zielgruppe und Voraussetzungen
 
 Dieses Tutorial richtet sich an Studierende, die ihre Daten interaktiv darstellen und geografische Daten mit multimedialen Elementen kombinieren möchten, um ihre Daten und Projekte besser zu kommunizieren. Wir setzen voraus, dass Sie über Grundkenntnisse in der ArcGIS-Welt verfügen und/oder mit einem anderen GIS arbeiten können. 
+Auch ein Zugang zu ArcGIS Online ist eine Vorraussetzung. Da die Lizenz sehr viel kostet, wird hier nicht erwartet, dass du dir ArcGIS Lizenzen kaufst. Sehr oft gibt es gratis Lizenzen, zum Beispiel bereitgestellt von Universitäten. Falls du darauf nicht zurückgreifen kannst, ist es aber auch möglich sich eine gratis Testversion zu beantragen und damit eine Story Map zu erstellen. 
 
 
 
@@ -40,7 +41,7 @@ The OER Module is licensed under the Creative Commons Attribution-ShareAlike 4.0
 
 You are free to use, alter and reproduce the tutorial (H5P content, textual documents, graphics) under the terms of the CC-BY-SA 4.0 license. Any code provided with the tutorial can be used under the terms of the MIT license. 
 ## Authors and Funding
-This Tutorial has been developed in the context of the OER4SDi project at the Institute for Geoinformatics, University of Münster. Authors are Severin Krohne
+This Tutorial has been developed in the context of the OER4SDi project at the Institute for Geoinformatics, University of Münster. Authors are Severin Krohne, Tim Ciroth, Jan Stenkamp, Albert Remke
 
 The OER4SDI project has been recommended by the Digital University NRW and is funded by the Ministry of Culture and Science NRW.
 
