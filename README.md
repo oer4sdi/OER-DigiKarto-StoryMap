@@ -7,7 +7,7 @@ Sie werden lernen:
 
 \- In welchen Szenarien Story Maps ein nützliches Werkzeug sein können 
 
-\- Wie Sie eine Story Map erstellen
+\- Wie du eine Story Map erstellst
 
 \- Welche Funktionen es gibt, um Ihre Website zu verbessern
 
