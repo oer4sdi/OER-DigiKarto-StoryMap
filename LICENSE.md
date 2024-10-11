@@ -1,6 +1,8 @@
-Copyright (c) 2024 University Münster
+You are free to use, alter and reproduce this open educational resource (OER) under the terms of the [CC-BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/legalcode). 
 
-You are free to use, alter and reproduce this open educational resource (OER) under the terms of the [CC-BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/legalcode). Any used logos are excluded from this. Any source code contained or delivered with this OER can be used under the terms of the MIT license:
+Any used logos are excluded from this. 
+
+Any source code contained or delivered with this OER can be used under the terms of the MIT license:
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
