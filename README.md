@@ -42,11 +42,11 @@ Weitere Infos zu H5P erhältst du auf der WebSite [H5P.org](https://h5p.org/) .
 ## Zielgruppe und Voraussetzungen
 
 Dieses Tutorial richtet sich an Studierende, die ihre Daten interaktiv darstellen und geografische Daten mit multimedialen Elementen kombinieren möchten, um ihre Daten und Projekte besser zu kommunizieren. Wir setzen voraus, dass sie über Grundkenntnisse in der ArcGIS-Welt verfügen und/oder mit einem anderen GIS arbeiten können. 
-Auch ein Zugang zu ArcGIS Online ist eine Voraussetzung. Da die Lizenz sehr viel kostet, wird hier nicht erwartet, dass du dir ArcGIS Lizenzen kaufst. Sehr oft gibt es gratis Lizenzen, zum Beispiel bereitgestellt von Universitäten. Falls du darauf nicht zurückgreifen kannst, ist es aber auch möglich, eine gratis Testversion zu beantragen und damit eine Story Map zu erstellen. 
+Auch ein Zugang zu ArcGIS Online ist eine Voraussetzung. Da die Lizenz sehr viel kostet, wird hier nicht erwartet, dass du dir ArcGIS Lizenzen kaufst. Sehr oft gibt es gratis Lizenzen, zum Beispiel bereitgestellt von Universitäten. Falls du darauf nicht zurückgreifen kannst, ist es aber auch möglich, eine gratis-[Testversion](www.esri.com/de-de/arcgis/products/arcgis-online/trial) zu beantragen und damit eine Story Map zu erstellen. 
 
 
 
-## License Statement
+## Offene Lizenz
 Du kannst den Inhalt des Tutorials unter den Bedingungen der [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de)-Lizenz verwenden, ändern und weitergeben, es sei denn, für bestimmte Teile des Inhalts ist ausdrücklich etwas anderes angegeben. 
 
 Alle verwendeten Logos sind generell ausgenommen. Soweit mit dem Tutorial Software-Code bereitgestellt wird, kann dieser unter den Bedingungen der MIT-Lizenz verwendet werden. Die vollständigen Lizenzbedingungen findest du [hier.](https://github.com/oer4sdi/OER-DigiKarto-StoryMap/blob/main/LICENSE.md)
