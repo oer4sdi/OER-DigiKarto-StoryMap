@@ -56,6 +56,6 @@ Das Tutorial kann wie folgt referenziert werden: „OER-DigiKarto-StoryMaps“, 
  
 
 ## Autoren und Förderhinweis
-Dieses Tutorial wurde am Institut für Geoinformatik der Universität Münster entwickelt. Autoren sind Severin Krohne, Tim Ciroth, Jan Stenkamp und Albert Remke. Die neueste Version dieses Tutorials ist immer auf [GitHub](https://github.com/oer4sdi/OER-DigiKarto-StoryMap) verfügbar. Wir würden uns freuen, wenn Du GitHub-Stars und GitHub-Issues verwendest, um Feedback zu geben und Verbesserungen vorzuschlagen.
+Dieses Tutorial wurde am Institut für Geoinformatik der Universität Münster entwickelt. Autoren sind Severin Krohne, Tim Ciroth, Jan Stenkamp und Albert Remke. Wir würden uns freuen, wenn Du GitHub-Stars und GitHub-Issues verwendest, um Feedback zu geben und Verbesserungen vorzuschlagen.
 
 Das OER4SDI-Projekt wurde von der Digitalen Hochschule NRW empfohlen und wird vom Ministerium für Kultur und Wissenschaft NRW gefördert.
