@@ -1,0 +1,137 @@
+WEBVTT
+
+00:00:10.450 --> 00:00:16.450 
+Ja, willkommen zum zweiten Video zum Thema, wie erstelle ich eine Web Map mit ARCIS Online,
+
+00:00:17.150 --> 00:00:22.090 
+in dem es darum geht, die Daten wirklich in ARCIS Online zu bearbeiten.
+
+00:00:22.390 --> 00:00:31.730 
+Dazu haben wir im ersten Teil die Daten vorbereitet und haben ein Shapefile in komprimierter Form vorliegen,
+
+00:00:31.810 --> 00:00:34.910 
+was wir jetzt in ARCIS Online hochladen wollen.
+
+00:00:35.970 --> 00:00:39.150 
+Dazu muss man ARCIS Online googeln und sich anmelden.
+
+00:00:39.150 --> 00:00:52.710 
+Das sieht jetzt in meinem Fall von der Uni Münster so aus, aber auch mit dem kostenlosen Testprogramm von ARCIS Online
+
+00:00:52.710 --> 00:00:55.810 
+und anderen Organisationen sollte es ziemlich ähnlich aussehen.
+
+00:00:56.370 --> 00:01:01.280 
+Und dann kann man unter dem Reiter Karte eine neue Karte öffnen,
+
+00:01:01.280 --> 00:01:04.760 
+das jetzt schon eine FaceMap hinterlegt.
+
+00:01:06.120 --> 00:01:13.000 
+Und da laden wir jetzt über das Plus und Layers und Teilen zufügen und unsere gewünschten Daten aus.
+
+00:01:13.980 --> 00:01:22.560 
+Da ist jetzt dieser gemachte SIP auszuwählen und dann erkennt er auch direkt, okay, das ist ein Shapefile.
+
+00:01:23.320 --> 00:01:25.160 
+Dann lassen wir ihn wieder hochladen.
+
+00:01:25.160 --> 00:01:31.660 
+Hier meckert er noch einmal kurz rum, weil ich das schon mal getestet habe und ich einen anderen Namen eingeben muss.
+
+00:01:32.520 --> 00:01:41.940 
+Und dann werden die Daten direkt schon online hochgeladen, zur Verfügung gestellt und auch gleich direkt in der Karte zu sehen sein.
+
+00:01:46.690 --> 00:01:55.230 
+Und hier jetzt unsere Daten in der Onlinekarte, die wir natürlich noch unterschiedlich symbolisieren können,
+
+00:01:55.230 --> 00:02:00.910 
+weil so eigentlich nur Punkte ist ja jetzt sage ich mal noch nicht so eine wunderschöne Karte.
+
+00:02:01.010 --> 00:02:04.450 
+Dann können wir zum Beispiel Style ganz nach Belieben ändern.
+
+00:02:04.650 --> 00:02:07.550 
+Hier zum Beispiel direkt empfohlen, so eine Heatmap zu machen.
+
+00:02:07.970 --> 00:02:13.770 
+Das ist auch ganz schön, kennt man auch teilweise einige Stadtregionen direkt wieder,
+
+00:02:13.870 --> 00:02:19.070 
+dass da natürlich häufiger Fahrradunfälle passieren als irgendwo und nirgendwo.
+
+00:02:19.770 --> 00:02:32.330 
+Kann aber auch Einzelsymbole nehmen und zum Beispiel auch nach anderen Feldern noch Attribute und die Symbolisierung filtern.
+
+00:02:32.670 --> 00:02:36.070 
+Zum Beispiel ist ein PKW.
+
+00:02:37.090 --> 00:02:45.170 
+Das kann ja auch ganz spannend sein bei Fahrradunfällen, mit Autos ist es natürlich immer oder meistens noch ein bisschen dramatischer,
+
+00:02:45.170 --> 00:02:49.310 
+als wenn ein Fahrradfahrer mit einem Fußgänger zusammenstößt oder so.
+
+00:02:49.770 --> 00:02:52.850 
+Dann kann man das hier auch so filtern.
+
+00:02:53.310 --> 00:03:02.310 
+Man sieht direkt, okay, es ist scheinbar nie zwei PKWs beteiligt an einem Unfall mit Fahrrad.
+
+00:03:02.390 --> 00:03:06.170 
+Das ist ja irgendwie auch mal vorstellbar.
+
+00:03:06.170 --> 00:03:14.710 
+Und da erkennt man, okay, die Blauen sind jetzt ohne Auto und die Roten mit Auto.
+
+00:03:20.170 --> 00:03:28.550 
+Dann hier in Arkes Online kann man generell auch noch ganz viele Einstellungen an dieser Karte vornehmen.
+
+00:03:29.190 --> 00:03:35.770 
+Man kann zum Beispiel Pop-ups hier einstellen, wenn man irgendwie auf einzelne Punkte draufklickt.
+
+00:03:36.650 --> 00:03:39.590 
+Dann hier kommt, okay, was ist genau dieser Punkt?
+
+00:03:39.750 --> 00:03:46.770 
+Okay, ist ein Fahrrad beteiligt, hier auch kein PKW, welche Gemeinde und alles mögliche.
+
+00:03:47.490 --> 00:03:55.830 
+Hier kann man natürlich die ganzen Attribute auch noch besser benennen.
+
+00:03:56.250 --> 00:04:04.630 
+Und das geht am besten in der Datengrundlage, aber auch hier kann man noch viele Bearbeitungen durchführen,
+
+00:04:04.630 --> 00:04:12.450 
+indem man zum Beispiel Werte separat noch mal einzeln manipuliert, wenn das denn gewünscht oder benötigt wird.
+
+00:04:13.530 --> 00:04:18.010 
+Man kann aber auch ganz andere Sachen einstellen, wie zum Beispiel Aggregation,
+
+00:04:18.330 --> 00:04:26.670 
+dass dann bestimmte Punkte zusammengefasst werden und wenn man scrollt, automatisch, dass es passiert.
+
+00:04:26.790 --> 00:04:31.910 
+Das ist jetzt in diesem Fall nicht immer unbedingt sinnvoll, aber es geht.
+
+00:04:31.910 --> 00:04:43.290 
+Und so kann man halt sich ganz beliebig austoben und irgendwelche Karten erstellen.
+
+00:04:43.770 --> 00:04:51.910 
+Und dann wichtig ist es halt, die auch im Ende abzuspeichern, wenn man denn seine Karte wie gewünscht erstellt hat.
+
+00:05:06.070 --> 00:05:15.210 
+Dann kann man die Datengrundlage auch noch einmal speichern.
+
+00:05:20.490 --> 00:05:21.890 
+Speichern unter, kann man auch sagen, kräftigen Titel wählen.
+
+00:05:21.890 --> 00:05:24.950 
+Dann sieht man hier oben am Reiter auch wieder, da hätte ich auch drehen können.
+
+00:05:26.230 --> 00:05:32.950 
+Unter Inhalt, eigene Inhalte sieht man dann jetzt auch, okay, hier ist die Karte online zur Verfügung gestellt.
+
+00:05:34.030 --> 00:05:39.250 
+Und so hat man eine Webmap mit ARCIS online erstellt.
+

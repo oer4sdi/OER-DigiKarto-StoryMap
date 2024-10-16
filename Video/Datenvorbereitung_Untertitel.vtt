@@ -1,0 +1,158 @@
+WEBVTT
+
+00:00:10.960 --> 00:00:18.120 
+Hallo, dies ist das erste von zwei Videos zum Thema, wie erstelle ich eine Webmap mit ARCIS Online.
+
+00:00:19.040 --> 00:00:25.920 
+In diesem Teil wird es um die Datenvorbereitung gehen, im nächsten Video um die Arbeit mit ARCIS Online selbst.
+
+00:00:27.600 --> 00:00:33.920 
+Unser Szenario ist, dass wir uns für die Fahrradunfälle innerhalb von NRW interessieren
+
+00:00:33.920 --> 00:00:42.160 
+und dazu dann gerne eine schöne Webmap erstellen wollen, die zeigt, wo die Unfälle passieren.
+
+00:00:43.840 --> 00:00:51.540 
+Dazu müssen wir erstmal auf Datensuche gehen, dazu kann man zum Beispiel einfach nach dem Unfallatlas NRW suchen.
+
+00:00:53.240 --> 00:01:00.360 
+Genau, hier der erste Link führt zum Unfallatlas selbst, der ist aber hier auch deutschlandweit.
+
+00:01:00.960 --> 00:01:10.820 
+Und hier das OpenGeoData.nrw-Portal führt tatsächlich auch zu den bundesweiten Daten auch.
+
+00:01:11.880 --> 00:01:19.940 
+Diese Shaped-Datei kann man sich dann hier runterladen oder auch hier und das sind tatsächlich exakt die gleichen Daten.
+
+00:01:22.640 --> 00:01:28.140 
+Diese Daten könnte man direkt bei ARCIS Online hochladen und mit denen arbeiten,
+
+00:01:28.140 --> 00:01:33.980 
+aber gerade in solchen Fällen, wo man zu viele Daten hat, bietet es sich auch an,
+
+00:01:34.120 --> 00:01:40.240 
+zunächst in einem lokalen GIS-Programm die Daten zu filtern und vorzubereiten,
+
+00:01:40.400 --> 00:01:45.760 
+bevor man sie bei ARCIS Online hochlädt und genau das wollen wir jetzt auch tun.
+
+00:01:46.260 --> 00:01:54.980 
+Dazu nutzen wir das Open Source Programm Google, da man dafür keine Lizenzen benötigt
+
+00:01:54.980 --> 00:02:02.020 
+und können wir eigentlich direkt die heruntergeladenen Daten erst einmal extraieren.
+
+00:02:03.940 --> 00:02:11.360 
+Und nachdem wir dies erfolgreich getan haben, können wir die in ein neues, leeres UGIS-Projekt reinladen,
+
+00:02:11.560 --> 00:02:20.290 
+zum Beispiel per drag-and-drop und dann tauchen auch schon die Daten in dem UGIS-Projekt auf.
+
+00:02:21.070 --> 00:02:25.430 
+Sieht man, wie gesagt, ok, das ist deutschlandweit, das wollen wir nicht
+
+00:02:25.430 --> 00:02:29.990 
+und tatsächlich, wenn man in die Datengrundlage guckt, sind das jetzt auch alle Unfälle
+
+00:02:29.990 --> 00:02:33.090 
+und nicht nur die Fahrradunfälle, die uns interessieren.
+
+00:02:33.770 --> 00:02:41.530 
+Um das jetzt schon mal vorhinein genau auf unseren Use-Case zuzuschneiden,
+
+00:02:41.770 --> 00:02:48.230 
+öffnen wir einmal die Attribut-Tabelle und können dann, wenn dies gleich geschehen ist,
+
+00:02:48.950 --> 00:02:57.730 
+hier erst den Bearbeitungsmodus anschalten und dann alles selektieren, was wir gleich löschen wollen.
+
+00:02:58.950 --> 00:03:04.290 
+Dazu gucken wir einmal hier in die Daten, sehen direkt U Land, U steht in dem Fall für Unfall,
+
+00:03:06.250 --> 00:03:11.210 
+gibt es nach Ländern differenziert und in dem Fall steht, kann man in den Metadaten,
+
+00:03:11.210 --> 00:03:22.430 
+die online zur Verfügung gestellt sind, nachgucken, 05 für das Land NRW und es gibt hier auch
+
+00:03:22.430 --> 00:03:30.210 
+das Attribut Estrat, das heißt, da ist ein Fahrrad involviert, Krafträder lasse ich jetzt mal
+
+00:03:30.210 --> 00:03:35.090 
+außen vor und zähle ich nicht als Fahrrad, das ist aber dann natürlich jedem selbst überlassen.
+
+00:03:35.690 --> 00:03:41.450 
+Das heißt, ich baue mir jetzt hier einen Ausdruck, der alles selektiert, was ich löschen möchte,
+
+00:03:41.650 --> 00:03:51.330 
+dafür brauche ich zwei logische Operatoren, einmal Not und einmal Vor und ich setze hier
+
+00:03:51.330 --> 00:04:00.150 
+direkt auch schon mal zwei Klammern und dann kann ich hier aus den Feldern hier einmal
+
+00:04:00.150 --> 00:04:07.310 
+das Land zunächst auswählen und gleich 05 schreiben, heißt dieser erste Teil,
+
+00:04:07.910 --> 00:04:14.590 
+er selektiert alles, was nicht in NRW ist und im zweiten Fall wollen wir dann alles,
+
+00:04:14.590 --> 00:04:27.640 
+was kein Fahrrad beinhaltet, also müssen wir Estrat gleich 0 wählen. Wenn man
+
+00:04:27.640 --> 00:04:36.660 
+diesen Ausdruck jetzt ausführt, dann sehen wir jetzt direkt ziemlich viele Punkte markiert,
+
+00:04:36.820 --> 00:04:46.820 
+ist auch ziemlich klar und diese wollen wir jetzt alle löschen. Das dauert einen kleinen
+
+00:04:46.820 --> 00:04:58.540 
+Moment, aber wenn man so lokal arbeitet, dann muss man teilweise etwas Geduld haben.
+
+00:04:59.700 --> 00:05:04.740 
+Diese Änderung sehen wir jetzt, okay, ist nur noch NRW, die Punkte sind auch ein bisschen
+
+00:05:04.740 --> 00:05:11.000 
+weniger geworden von der Menge her und sieht alles gut aus, das heißt wir speichern unsere
+
+00:05:11.000 --> 00:05:30.950 
+Änderungen und jetzt auch einen kleinen Moment, dann stoppe ich einmal die Aufzeichnung,
+
+00:05:36.140 --> 00:05:40.040 
+da sind wir wieder, ich muss jetzt tatsächlich das Programm einmal kurz neu starten,
+
+00:05:40.780 --> 00:05:46.560 
+ist mir vorher auch noch nicht passiert, aber jetzt ist nach genau den gleichen Schritten
+
+00:05:47.860 --> 00:05:55.960 
+Speichervorgang erfolgreich gewesen, dann können wir den Bearbeitungsmodus ausstellen und dann
+
+00:05:56.500 --> 00:06:02.920 
+können wir eigentlich schon die Daten hier so vorliegen, wie sie haben wollen und können
+
+00:06:02.920 --> 00:06:09.620 
+jetzt in einem letzten Schritt noch die Daten wieder exportieren und zwar wieder
+
+00:06:09.620 --> 00:06:29.140 
+als Shape-Datei und können einen Namen sagen, zum Beispiel irgendwie Farad und NRW und das
+
+00:06:29.140 --> 00:06:40.210 
+habe ich jetzt schon mal in Ordnung vorbereitet, da kann man das dann abspeichern, zack,
+
+00:06:41.530 --> 00:06:46.150 
+gleich abgespeichert und jetzt ist es noch in einem letzten Schritt wichtig, wenn man
+
+00:06:46.150 --> 00:06:54.750 
+das in ARCIS Online hochladen will, dann benötigt man eine ZIP-Datei, das heißt,
+
+00:06:55.190 --> 00:07:01.030 
+das ist jetzt die Shape-Datei von dem Layer, den wir gerade exportiert haben und den
+
+00:07:01.030 --> 00:07:11.660 
+müssen wir jetzt noch einmal wieder zippen. Genau, das war es dann auch schon und im
+
+00:07:11.660 --> 00:07:20.040 
+nächsten Video wird euch dann gezeigt, wie man diese ZIP-Datei ARCIS Online hochlädt
+
+00:07:20.040 --> 00:07:22.840 
+und dann eine Online-Karte erstellt.
+
